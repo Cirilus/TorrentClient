@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "client-torrent"
+version = "0.1.0"
+description = ""
+authors = ["kirill <shkolenko02-03-2004@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bencodepy = "^0.9.5"
+requests = "^2.31.0"
+aiohttp = "^3.9.1"
+bencoding = "^0.2.6"
+loguru = "^0.7.2"
+bencode = "^1.0"
+httpx = "^0.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
